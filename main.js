@@ -38,3 +38,36 @@ function roll_d10() {
      num = Math.floor(Math.random() * 10)
     console.log(num)
 }
+
+let volume = 5
+
+function show_volume() {
+ console.log(volume)
+}
+
+function volume_up() {
+volume = volume + 1
+console.log(`The volume is ${volume}`)
+}
+function volume_down() {
+    volume = volume - 1
+    console.log(`The volume is ${volume}`)
+    }
+
+function random_volume() {
+volume = Math.random * 10
+console.log(volume)
+}
+
+function born_in() {
+let birth_date = prompt("How old are you?")
+year = (2024 - birth_date)
+console.log(year)
+}
+
+function roll_d20() {
+    let num = Math.random() * 20
+      num = Math.round(Math.random() * 20)
+     console.log(num)
+     alert (`You rolled ${roll_d20}`)
+}
